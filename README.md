@@ -1,5 +1,5 @@
 # FxLearnDemo
-A project for javafx learners with som demos
+A project for javafx learners, inside are some demos
 
 jdk11.0.17
 
