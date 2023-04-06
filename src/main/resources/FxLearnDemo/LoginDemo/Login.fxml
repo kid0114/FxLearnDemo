@@ -57,13 +57,13 @@
             <HBox alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="217.0" prefWidth="391.0">
                <children>
                   <Label alignment="CENTER" prefHeight="20.0" prefWidth="144.0" text="Username:" />
-                  <TextField prefHeight="30.0" prefWidth="193.0" />
+                  <TextField prefHeight="30.0" prefWidth="178.0" />
                </children>
             </HBox>
             <HBox alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="192.0" prefWidth="391.0">
                <children>
-                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="20.0" prefWidth="145.0" text="Passwords:" />
-                  <TextField prefHeight="30.0" prefWidth="194.0" />
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="20.0" prefWidth="140.0" text="Passwords:" />
+                  <TextField prefHeight="30.0" prefWidth="173.0" />
                </children>
             </HBox>
             <HBox alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="154.0" prefWidth="391.0">
