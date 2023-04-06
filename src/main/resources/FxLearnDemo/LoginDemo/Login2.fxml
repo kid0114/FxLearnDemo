@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--第二类登陆界面-->
+
+
+
+
+<?import java.lang.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<SplitPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+           fx:controller="FxLearnDemo.LoginDemo.Login">
+   <items>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="560.0" strokeType="INSIDE" width="307.0">
+         <fill>
+            <RadialGradient centerX="0.49717157756895547" centerY="0.19351269673445398" focusAngle="-158.4" focusDistance="0.5117474895484977" radius="1.0">
+               <stops>
+                  <Stop color="#10457e" />
+                  <Stop color="#205ea1" offset="0.2071499503475668" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+         <stroke>
+            <RadialGradient centerX="0.37885458458887844" cycleMethod="REFLECT" focusDistance="-0.24770648326348832">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color blue="0.49473685026168823" green="0.2713112533092499" red="0.062300194054841995" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.2071499503475668">
+                     <color>
+                        <Color blue="0.49000000953674316" green="0.26974499225616455" red="0.06369999796152115" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color blue="1.0" green="1.0" red="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </stroke>
+      </Rectangle>
+   </items>
+</SplitPane>
