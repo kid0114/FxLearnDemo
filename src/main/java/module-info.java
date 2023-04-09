@@ -16,5 +16,8 @@ module FxLearnDemo {
     opens FxLearnDemo.HelloDemo to javafx.fxml;
     exports FxLearnDemo.LoginDemo;
     opens FxLearnDemo.LoginDemo to javafx.fxml;
-
+    exports FxLearnDemo.MenuMain;
+    opens FxLearnDemo.MenuMain to javafx.fxml;
+    exports FxLearnDemo.RegisterDemo;
+    opens FxLearnDemo.RegisterDemo to javafx.fxml;
 }

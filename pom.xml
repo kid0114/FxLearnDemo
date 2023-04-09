@@ -25,6 +25,14 @@
             <artifactId>javafx-fxml</artifactId>
             <version>17.0.2</version>
         </dependency>
+       <!--  https://mvnrepository.com/artifact/org.openjfx/javafx
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx</artifactId>
+            <version>19</version>
+            <type>pom</type>
+        </dependency>-->
+
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-web</artifactId>
@@ -128,7 +136,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>FxLearnDemo/FxLearnDemo.HelloApplication</mainClass>
+                            <mainClass>FxLearnDemo/FxLearnDemo.Welcome</mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
                             <jlinkImageName>app</jlinkImageName>
