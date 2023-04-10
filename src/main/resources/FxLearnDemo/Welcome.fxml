@@ -7,9 +7,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<VBox alignment="CENTER" prefHeight="400.0" prefWidth="500.0" spacing="20.0"
-      style="-fx-background-color: linear-gradient(from 2.6515% 10.6061% to 100.0% 100.0%, #193ea4 0.0%, #193ea4 0.6729%, #c9d4f2 100.0%);"
-      xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FxLearnDemo.WelcomeController">
+<VBox alignment="CENTER" prefHeight="400.0" prefWidth="500.0" spacing="20.0" style="-fx-background-color: linear-gradient(from 2.6515% 10.6061% to 100.0% 100.0%, #193ea4 0.0%, #193ea4 0.6729%, #c9d4f2 80.0%);" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FxLearnDemo.WelcomeController">
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
@@ -23,7 +21,7 @@
          <Font name="System Bold" size="48.0" />
       </font>
    </Text>
-   <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: linear-gradient(from 2.6515% 10.6061% to 100.0% 100.0%, #193ea4 0.0%, #193ea4 0.6729%, #c9d4f2 100.0%);" styleClass="radial-gradient(focus-angle 0.0deg, focus-distance 0.0% , center 30.0661% 22.7273%, radius 50.0%, #3755b9 0.0%, #cfd8e7 100.0%)" text="Login" textAlignment="CENTER" textFill="WHITE">
+   <Button fx:id="wel_login" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: linear-gradient(from 2.6515% 10.6061% to 100.0% 100.0%, #193ea4 0.0%, #193ea4 0.6729%, #c9d4f2 100.0%);" styleClass="radial-gradient(focus-angle 0.0deg, focus-distance 0.0% , center 30.0661% 22.7273%, radius 50.0%, #3755b9 0.0%, #cfd8e7 100.0%)" text="Login" textAlignment="CENTER" textFill="WHITE">
       <font>
          <Font name="System Bold" size="13.0" />
       </font>
@@ -31,7 +29,7 @@
          <Reflection fraction="0.33" />
       </effect>
    </Button>
-   <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="26.0" prefWidth="130.0" style="-fx-background-color: linear-gradient(from 2.6515% 10.6061% to 100.0% 100.0%, #193ea4 0.0%, #193ea4 0.6729%, #c9d4f2 100.0%);" styleClass="radial-gradient(focus-angle 0.0deg, focus-distance 0.0% , center 30.0661% 22.7273%, radius 50.0%, #3755b9 0.0%, #cfd8e7 100.0%)" text="Register" textAlignment="CENTER" textFill="WHITE">
+   <Button fx:id="wel_register" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="26.0" prefWidth="130.0" style="-fx-background-color: linear-gradient(from 2.6515% 10.6061% to 100.0% 100.0%, #193ea4 0.0%, #193ea4 0.6729%, #c9d4f2 100.0%);" styleClass="radial-gradient(focus-angle 0.0deg, focus-distance 0.0% , center 30.0661% 22.7273%, radius 50.0%, #3755b9 0.0%, #cfd8e7 100.0%)" text="Register" textAlignment="CENTER" textFill="WHITE">
       <font>
          <Font name="System Bold Italic" size="12.0" />
       </font>
@@ -39,7 +37,7 @@
          <Reflection fraction="0.33" />
       </effect>
    </Button>
-   <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="26.0" prefWidth="130.0" style="-fx-background-color: #d91515;" styleClass="radial-gradient(focus-angle 0.0deg, focus-distance 0.0% , center 30.0661% 22.7273%, radius 50.0%, #3755b9 0.0%, #cfd8e7 100.0%)" text="EXIT" textAlignment="CENTER" textFill="WHITE">
+   <Button fx:id="wel_exit" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="26.0" prefWidth="130.0" style="-fx-background-color: #d91515;" styleClass="radial-gradient(focus-angle 0.0deg, focus-distance 0.0% , center 30.0661% 22.7273%, radius 50.0%, #3755b9 0.0%, #cfd8e7 100.0%)" text="EXIT" textAlignment="CENTER" textFill="WHITE">
       <font>
          <Font name="System Bold Italic" size="13.0" />
       </font>

@@ -22,6 +22,5 @@ public class MenuMainApp extends Application {
         stage.setScene(scene);
         stage.show();
 
-
     }
 }

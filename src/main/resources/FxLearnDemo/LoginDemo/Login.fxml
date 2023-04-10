@@ -8,10 +8,10 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane fx:id="anchorPane0" minWidth="-Infinity" minHeight="-Infinity" maxWidth="-Infinity" maxHeight="-Infinity"  prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FxLearnDemo.LoginDemo.LoginController">
+<AnchorPane fx:id="anchorPane0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FxLearnDemo.LoginDemo.LoginController">
    <children>
-      <AnchorPane fx:id="anchorPane1"  prefHeight="500.0" prefWidth="300.0" style="-fx-background-color: linear-gradient(from 2.6515% 10.6061% to 100.0% 100.0%, #193ea4 0.0%, #193ea4 0.6729%, #c9d4f2 100.0%);" />
-      <AnchorPane fx:id="anchorPane2"  blendMode="DARKEN" layoutX="304.0" prefHeight="500.0" prefWidth="400.0">
+      <AnchorPane fx:id="anchorPane1" prefHeight="500.0" prefWidth="300.0" style="-fx-background-color: linear-gradient(from 2.6515% 10.6061% to 100.0% 100.0%, #193ea4 0.0%, #193ea4 0.6729%, #c9d4f2 100.0%);" />
+      <AnchorPane fx:id="anchorPane2" blendMode="DARKEN" layoutX="304.0" prefHeight="500.0" prefWidth="400.0">
          <children>
             <Text fill="#0c2659" fontSmoothingType="LCD" layoutX="49.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username：" wrappingWidth="96.0">
                <font>
@@ -23,17 +23,17 @@
                   <Font name="System Bold" size="13.0" />
                </font>
             </Text>
-            <TextField layoutX="173.0" layoutY="128.0">
+            <TextField fx:id="lo_username" layoutX="173.0" layoutY="128.0">
                <effect>
                   <DropShadow height="10.0" radius="4.5" width="10.0" />
                </effect>
             </TextField>
-            <TextField layoutX="173.0" layoutY="172.0">
+            <TextField fx:id="lo_password" layoutX="173.0" layoutY="172.0">
                <effect>
                   <DropShadow height="10.0" radius="4.5" width="10.0" />
                </effect>
             </TextField>
-            <Button alignment="CENTER" contentDisplay="CENTER" layoutX="74.0" layoutY="240.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="110.0" style="-fx-background-color: linear-gradient(from 2.6515% 10.6061% to 100.0% 100.0%, #193ea4 0.0%, #193ea4 0.6729%, #c9d4f2 100.0%);" styleClass="radial-gradient(focus-angle 0.0deg, focus-distance 0.0% , center 30.0661% 22.7273%, radius 50.0%, #3755b9 0.0%, #cfd8e7 100.0%)" text="Login" textAlignment="CENTER" textFill="WHITE">
+            <Button fx:id="lo_login" alignment="CENTER" contentDisplay="CENTER" layoutX="74.0" layoutY="240.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="110.0" style="-fx-background-color: linear-gradient(from 2.6515% 10.6061% to 100.0% 100.0%, #193ea4 0.0%, #193ea4 0.6729%, #c9d4f2 100.0%);" styleClass="radial-gradient(focus-angle 0.0deg, focus-distance 0.0% , center 30.0661% 22.7273%, radius 50.0%, #3755b9 0.0%, #cfd8e7 100.0%)" text="Login" textAlignment="CENTER" textFill="WHITE">
                <font>
                   <Font name="System Bold Italic" size="12.0" />
                </font>
@@ -41,7 +41,7 @@
                   <Reflection fraction="0.33" />
                </effect>
             </Button>
-            <Button alignment="CENTER" contentDisplay="CENTER" layoutX="224.0" layoutY="240.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="110.0" style="-fx-background-color: linear-gradient(from 2.6515% 10.6061% to 100.0% 100.0%, #193ea4 0.0%, #193ea4 0.6729%, #c9d4f2 100.0%);" styleClass="radial-gradient(focus-angle 0.0deg, focus-distance 0.0% , center 30.0661% 22.7273%, radius 50.0%, #3755b9 0.0%, #cfd8e7 100.0%)" text="Foget" textAlignment="CENTER" textFill="WHITE">
+            <Button fx:id="lo_forget" alignment="CENTER" contentDisplay="CENTER" layoutX="224.0" layoutY="240.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="110.0" style="-fx-background-color: linear-gradient(from 2.6515% 10.6061% to 100.0% 100.0%, #193ea4 0.0%, #193ea4 0.6729%, #c9d4f2 100.0%);" styleClass="radial-gradient(focus-angle 0.0deg, focus-distance 0.0% , center 30.0661% 22.7273%, radius 50.0%, #3755b9 0.0%, #cfd8e7 100.0%)" text="Forget" textAlignment="CENTER" textFill="WHITE">
                <font>
                   <Font name="System Bold Italic" size="12.0" />
                </font>
@@ -49,7 +49,7 @@
                   <Reflection fraction="0.33" />
                </effect>
             </Button>
-            <Button alignment="CENTER" contentDisplay="CENTER" layoutX="224.0" layoutY="362.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="130.0" style="-fx-background-color: linear-gradient(from 2.6515% 10.6061% to 100.0% 100.0%, #193ea4 0.0%, #193ea4 0.6729%, #c9d4f2 100.0%);" styleClass="radial-gradient(focus-angle 0.0deg, focus-distance 0.0% , center 30.0661% 22.7273%, radius 50.0%, #3755b9 0.0%, #cfd8e7 100.0%)" text="Register" textAlignment="CENTER" textFill="WHITE">
+            <Button fx:id="lo_register" alignment="CENTER" contentDisplay="CENTER" layoutX="224.0" layoutY="362.0" mnemonicParsing="false" onAction="#initialize" prefHeight="26.0" prefWidth="130.0" style="-fx-background-color: linear-gradient(from 2.6515% 10.6061% to 100.0% 100.0%, #193ea4 0.0%, #193ea4 0.6729%, #c9d4f2 100.0%);" styleClass="radial-gradient(focus-angle 0.0deg, focus-distance 0.0% , center 30.0661% 22.7273%, radius 50.0%, #3755b9 0.0%, #cfd8e7 100.0%)" text="Register" textAlignment="CENTER" textFill="WHITE">
                <font>
                   <Font name="System Bold Italic" size="12.0" />
                </font>
@@ -57,7 +57,7 @@
                   <Reflection fraction="0.33" />
                </effect>
             </Button>
-            <Button alignment="CENTER" contentDisplay="CENTER" layoutX="224.0" layoutY="412.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="130.0" style="-fx-background-color: #d91515;" styleClass="radial-gradient(focus-angle 0.0deg, focus-distance 0.0% , center 30.0661% 22.7273%, radius 50.0%, #3755b9 0.0%, #cfd8e7 100.0%)" text="EXIT" textAlignment="CENTER" textFill="WHITE">
+            <Button fx:id="lo_exit" alignment="CENTER" contentDisplay="CENTER" layoutX="224.0" layoutY="412.0" mnemonicParsing="false" onAction="#initialize" prefHeight="26.0" prefWidth="130.0" style="-fx-background-color: #d91515;" styleClass="radial-gradient(focus-angle 0.0deg, focus-distance 0.0% , center 30.0661% 22.7273%, radius 50.0%, #3755b9 0.0%, #cfd8e7 100.0%)" text="EXIT" textAlignment="CENTER" textFill="WHITE">
                <font>
                   <Font name="System Bold Italic" size="12.0" />
                </font>
